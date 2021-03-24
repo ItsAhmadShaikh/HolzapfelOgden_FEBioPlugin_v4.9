@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<febio_spec version="3.0">
+<Globals>
+	<Constants>
+		<T>0</T>
+		<R>0</R>
+		<Fc>0</Fc>
+	</Constants>
+	<Variables>
+		<var name="a0">2.113713188676900e-03</var>
+		<var name="b0">4.319048535861550e+00</var>
+		<var name="af0">0.000000000000000e+00</var>
+		<var name="bf0">1.000000000000000e+00</var>
+		<var name="as0">8.153027408726179e-07</var>
+		<var name="bs0">3.647655299025780e-03</var>
+		<var name="afs0">3.938563022170260e-04</var>
+		<var name="bfs0">1.153511019677170e+00</var>
+		<var name="asn0">0.000000000000000e+00</var>
+		<var name="bsn0">0.000000000000000e+00</var>
+		<var name="anf0">0.000000000000000e+00</var>
+		<var name="bnf0">0.000000000000000e+00</var>
+</Variables>
+</Globals>
+</febio_spec>

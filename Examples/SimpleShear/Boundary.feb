@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<febio_spec version="3.0">
+	<Boundary>
+		<bc name="Fix_Bottom_Face" type="fix" node_set="posx">
+			<dofs>x,y,z</dofs>
+		</bc>
+		<bc name="Rigid_Contact" type="rigid" node_set="negx">
+			<rb>1</rb>
+		</bc>
+	</Boundary>
+	<Rigid>
+		<rigid_constraint name="FixRigidBody" type="fix">
+			<rb>1</rb>
+			<dofs>Rx,Rz,Ru,Rv,Rw</dofs>
+		</rigid_constraint>
+		<rigid_constraint name="PrescribedDisplacement" type="prescribe">
+			<rb>1</rb>
+			<dof>Ry</dof>
+			<value lc="2">1</value>
+		</rigid_constraint>
+	</Rigid>
+</febio_spec>

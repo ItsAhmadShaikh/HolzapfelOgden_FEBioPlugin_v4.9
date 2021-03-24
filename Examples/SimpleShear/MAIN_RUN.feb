@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<febio_spec version="3.0">
+	<Module type="solid"/>
+	<Include>Control.feb</Include>
+    <Include>Globals.feb</Include>
+	<Include>Material.feb</Include>
+	<Include>Geometry.feb</Include>
+    <Include>MeshDomains.feb</Include>
+    <Include>MeshData.feb</Include>	
+    <Include>Boundary.feb</Include>
+	<Include>LoadData.feb</Include>
+	<Include>Output.feb</Include>
+</febio_spec>

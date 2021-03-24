@@ -1,0 +1,40 @@
+*Step  = 1
+*Time  = 0.1
+*Data  = sz
+1 0.00018551423161
+*Step  = 2
+*Time  = 0.2
+*Data  = sz
+1 0.000412411377092
+*Step  = 3
+*Time  = 0.3
+*Data  = sz
+1 0.000722846778688
+*Step  = 4
+*Time  = 0.4
+*Data  = sz
+1 0.00118833834191
+*Step  = 5
+*Time  = 0.5
+*Data  = sz
+1 0.00194193795095
+*Step  = 6
+*Time  = 0.6
+*Data  = sz
+1 0.00324909615405
+*Step  = 7
+*Time  = 0.7
+*Data  = sz
+1 0.00567545629706
+*Step  = 8
+*Time  = 0.8
+*Data  = sz
+1 0.0105035985122
+*Step  = 9
+*Time  = 0.9
+*Data  = sz
+1 0.0208261387799
+*Step  = 10
+*Time  = 1
+*Data  = sz
+1 0.0444992175034

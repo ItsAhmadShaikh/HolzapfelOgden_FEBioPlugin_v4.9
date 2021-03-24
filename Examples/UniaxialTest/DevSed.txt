@@ -1,0 +1,40 @@
+*Step  = 1
+*Time  = 0.1
+*Data  = devsed
+1 2.22843933669e-06
+*Step  = 2
+*Time  = 0.2
+*Data  = devsed
+1 9.30315230262e-06
+*Step  = 3
+*Time  = 0.3
+*Data  = devsed
+1 2.24245386007e-05
+*Step  = 4
+*Time  = 0.4
+*Data  = devsed
+1 4.39742259314e-05
+*Step  = 5
+*Time  = 0.5
+*Data  = devsed
+1 7.83808366408e-05
+*Step  = 6
+*Time  = 0.6
+*Data  = devsed
+1 0.000133955859058
+*Step  = 7
+*Time  = 0.7
+*Data  = devsed
+1 0.000226914608025
+*Step  = 8
+*Time  = 0.8
+*Data  = devsed
+1 0.000390603526071
+*Step  = 9
+*Time  = 0.9
+*Data  = devsed
+1 0.000697678727181
+*Step  = 10
+*Time  = 1
+*Data  = devsed
+1 0.00131495679721

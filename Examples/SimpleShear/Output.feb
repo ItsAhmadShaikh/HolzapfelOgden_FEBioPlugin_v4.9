@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<febio_spec version="3.0">
+	<Output>
+		<plotfile type="febio">
+			<var type="displacement"/>
+			<var type="stress"/>
+			<var type="rigid force"/>
+			<var type="fiber vector"/>
+			<var type="fiber stretch"/>
+		</plotfile>
+		<logfile>
+			<rigid_body_data file = "RigidForce.txt" data="x;y;z;Fx;Fy;Fz" comments="off">1</rigid_body_data>
+			<element_data file = "VolumeRatioJ.txt" data="J" comments="off"> </element_data>
+			<element_data file = "DevSed.txt" data="devsed" comments="off"> </element_data>
+		</logfile>
+	</Output>
+</febio_spec>

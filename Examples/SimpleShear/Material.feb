@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<febio_spec version="3.0">
+	<Material>
+		<material id="1" name="RigidBodyPlate" type="rigid body">
+			<density>1</density>
+			<center_of_mass>-0.440,4.695,3.110</center_of_mass>
+		</material>
+		<material id="2" name="Tissue1" type="uncoupled solid mixture">
+			 <k>50.000000</k>
+			<solid type="continuous fiber distribution uncoupled">
+				<fibers type="fiber-exp-pow-uncoupled">
+					 <alpha>4</alpha>
+					 <beta>2</beta>
+					 <ksi>6e-03</ksi>
+				</fibers>
+				<distribution type="von-Mises-2d">
+					 <b>4.256441259750</b>
+				</distribution>
+				<scheme type="fibers-2d-trapezoidal">
+					 <nth>31</nth>
+				</scheme> 
+			</solid> 
+			<solid type="Holzapfel_Ogden">
+				<density>1</density>
+				<a type="math">fem.a0</a>
+				<b type="math">fem.b0</b>
+				<af type="math">0.0</af>
+				<bf type="math">1.0</bf>
+				<as type="math">fem.as0</as>
+				<bs type="math">fem.bs0</bs>
+				<afs type="math">fem.afs0</afs>
+				<bfs type="math">fem.bfs0</bfs>
+				<asn type="math">fem.asn0</asn>
+				<bsn type="math">fem.bsn0</bsn>
+				<anf type="math">fem.anf0</anf>
+				<bnf type="math">fem.bnf0</bnf>
+			</solid>
+		</material>
+		<material id="3" name="Tissue2" type="uncoupled solid mixture">
+			<k>50</k>
+			<solid type="continuous fiber distribution uncoupled">
+				<fibers type="fiber-exp-pow-uncoupled">
+					 <alpha>4</alpha>
+					 <beta>2</beta>
+					 <ksi>6e-03</ksi>
+				</fibers>
+				<distribution type="von-Mises-2d">
+					 <b>6</b>
+				</distribution>
+				<scheme type="fibers-2d-trapezoidal">
+					 <nth>31</nth>
+				</scheme> 
+			</solid> 
+			<solid type="Holzapfel_Ogden">
+				<density>1</density>
+				<a type="math">fem.a0</a>
+				<b type="math">fem.b0</b>
+				<af type="math">0.0</af>
+				<bf type="math">1.0</bf>
+				<as type="math">fem.as0</as>
+				<bs type="math">fem.bs0</bs>
+				<afs type="math">fem.afs0</afs>
+				<bfs type="math">fem.bfs0</bfs>
+				<asn type="math">fem.asn0</asn>
+				<bsn type="math">fem.bsn0</bsn>
+				<anf type="math">fem.anf0</anf>
+				<bnf type="math">fem.bnf0</bnf>
+			</solid>
+		</material>
+		<material id="4" name="Tissue3" type="uncoupled solid mixture">
+			<k>50</k>
+			<solid type="continuous fiber distribution uncoupled">
+				<fibers type="fiber-exp-pow-uncoupled">
+					 <alpha>4</alpha>
+					 <beta>2</beta>
+					 <ksi>6e-03</ksi>
+				</fibers>
+				<distribution type="von-Mises-2d">
+					 <b>5</b>
+				</distribution>
+				<scheme type="fibers-2d-trapezoidal">
+					 <nth>31</nth>
+				</scheme> 
+			</solid> 
+			<solid type="Holzapfel_Ogden">
+				<density>1</density>
+				<a type="math">fem.a0</a>
+				<b type="math">fem.b0</b>
+				<af type="math">0.0</af>
+				<bf type="math">1.0</bf>
+				<as type="math">fem.as0</as>
+				<bs type="math">fem.bs0</bs>
+				<afs type="math">fem.afs0</afs>
+				<bfs type="math">fem.bfs0</bfs>
+				<asn type="math">fem.asn0</asn>
+				<bsn type="math">fem.bsn0</bsn>
+				<anf type="math">fem.anf0</anf>
+				<bnf type="math">fem.bnf0</bnf>
+			</solid>
+		</material>
+		<material id="5" name="Tissue4" type="uncoupled solid mixture">
+			<k>50.000000</k>
+			<solid type="continuous fiber distribution uncoupled">
+				<fibers type="fiber-exp-pow-uncoupled">
+					 <alpha>4</alpha>
+					 <beta>2</beta>
+					 <ksi>6e-03</ksi>
+				</fibers>
+				<distribution type="von-Mises-2d">
+					 <b>3</b>
+				</distribution>
+				<scheme type="fibers-2d-trapezoidal">
+					 <nth>31</nth>
+				</scheme> 
+			</solid> 
+			<solid type="Holzapfel_Ogden">
+				<density>1</density>
+				<a type="math">fem.a0</a>
+				<b type="math">fem.b0</b>
+				<af type="math">0.0</af>
+				<bf type="math">1.0</bf>
+				<as type="math">fem.as0</as>
+				<bs type="math">fem.bs0</bs>
+				<afs type="math">fem.afs0</afs>
+				<bfs type="math">fem.bfs0</bfs>
+				<asn type="math">fem.asn0</asn>
+				<bsn type="math">fem.bsn0</bsn>
+				<anf type="math">fem.anf0</anf>
+				<bnf type="math">fem.bnf0</bnf>
+			</solid>
+		</material>
+	</Material>
+</febio_spec>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<febio_spec version="3.0">
+	<MeshDomains>
+		<SolidDomain name="RigidPlate" mat="RigidBodyPlate"/>
+		<SolidDomain name="S1" mat="Tissue1">
+		</SolidDomain>
+		<SolidDomain name="S2" mat="Tissue2">
+		</SolidDomain>
+		<SolidDomain name="S3" mat="Tissue3">
+		</SolidDomain>
+		<SolidDomain name="S4" mat="Tissue4">
+		</SolidDomain>
+	</MeshDomains>
+</febio_spec>
